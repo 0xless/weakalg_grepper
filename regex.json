@@ -1,0 +1,119 @@
+{
+    "sha1_p": {
+        "name":"possible sha1 code",
+        "regex":[".*sha.*1"],
+        "description":"Possible instance of sha1 algoritm related code"
+        },
+    "sha1_u": {
+        "name":"possible sha1 usage",
+        "regex":[".*sha.*1.*\\("],
+        "description":"Possible instance of sha1 algoritm usage"
+        },
+
+    "3DES_p": {
+        "name":"possible 3DES code",
+        "regex":[".*3DES.*", ".*Triple.*DES.*", ".*TDEA.*", ".*Triple.*DEA.*", ".*TDES.*"],
+        "description":"Possible instance of 3DES algoritm related code"
+        },
+    "3DES_u": {
+        "name":"possible sha1 usage",
+        "regex":[".*3DES.*\\(", ".*Triple.*DES.*\\(", ".*TDEA.*\\(", ".*Triple.*DEA.*\\(", ".*TDES.*\\("],
+        "description":"Possible instance of 3DES algoritm usage"
+        },
+
+    "DES_p": {
+        "name":"possible sha1 code",
+        "regex":[".*DES.*"],
+        "description":"Possible instance of DES algoritm related code (issue if keylength <= 56)"
+        },
+
+    "AES_ECB_p": {
+        "name":"possible ECB code",
+        "regex":[".*DES.*"],
+        "description":"Possible instance of ECB mode (issue if used with AES)"
+        },
+    
+    "RC4_p": {
+        "name":"possible RC4 code",
+        "regex":[".*RC4.*"],
+        "description":"Possible instance of RC4 algoritm related code"
+        },
+    "RC4_u": {
+        "name":"possible RC4 usage",
+        "regex":[".*RC4.*\\("],
+        "description":"Possible instance of RC4 algoritm usage"
+        },
+
+    "RC2_p": {
+        "name":"possible RC2 code",
+        "regex":[".*RC2.*"],
+        "description":"Possible instance of RC2 algoritm related code"
+        },
+    "RC2_u": {
+        "name":"possible RC2 usage",
+        "regex":[".*RC2.*\\("],
+        "description":"Possible instance of RC2 algoritm usage"
+        },
+
+    "RIPEMD_p": {
+        "name":"possible RIPEMD code",
+        "regex":[".*RIPEMD.*", ".*RIPE.*Message.*Digest.*"],
+        "description":"Possible instance of RIPEMD algoritm related code"
+        },
+    "RIPEMD_u": {
+        "name":"possible RIPEMD usage",
+        "regex":[".*RIPEMD.*\\("],
+        "description":"Possible instance of RIPEMD algoritm usage"
+        },
+
+    "MD5_p": {
+        "name":"possible MD5 code",
+        "regex":[".*MD5.*"],
+        "description":"Possible instance of MD5 algoritm related code"
+        },
+    "MD5_u": {
+        "name":"possible MD5 usage",
+        "regex":[".*MD5.*\\("],
+        "description":"Possible instance of MD5 algoritm usage"
+        },
+
+    "MD4_p": {
+        "name":"possible MD4 code",
+        "regex":[".*MD4.*"],
+        "description":"Possible instance of MD4 algoritm related code"
+        },
+    "MD4_u": {
+        "name":"possible MD4 usage",
+        "regex":[".*MD4.*\\("],
+        "description":"Possible instance of MD4 algoritm usage"
+        },
+
+    "MD2_p": {
+        "name":"possible MD2 code",
+        "regex":[".*MD2.*"],
+        "description":"Possible instance of MD2 algoritm related code"
+        },
+    "MD2_u": {
+        "name":"possible MD2 usage",
+        "regex":[".*MD2.*\\("],
+        "description":"Possible instance of MD2 algoritm usage"
+        },
+
+    "skipjack_p": {
+        "name":"possible skipjack code",
+        "regex":[".*skipjack.*"],
+        "description":"Possible instance of skipjack algoritm related code"
+        },
+    
+    "blowfish_p": {
+        "name":"possible blowfish code",
+        "regex":[".*blowfish.*"],
+        "description":"Possible instance of blowfish algoritm related code"
+        },
+    
+    "weak_padding_p": {
+        "name": "possible weak padding",
+        "regex":[".*ISO.*9796-1.*", ".*PKCS.*#1.*", ".*PKCS.*#7.*"],
+        "description":"Possible instance of weak padding in encryption algoritm"
+    }
+}
